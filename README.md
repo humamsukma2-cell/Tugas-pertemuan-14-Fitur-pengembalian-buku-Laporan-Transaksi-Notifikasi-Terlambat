@@ -22,6 +22,7 @@ Fitur yang diterapkan:
 * Menambahkan stok buku sebanyak 1 saat buku dikembalikan
 * Total Stok Sebelum Buku Dikembalikan
 <img width="756" height="113" alt="image" src="https://github.com/user-attachments/assets/4ba808cb-8812-4595-a000-e531ea248cf0" />
+
 * Total Stok Setelah Buku Dikembalikan
 <img width="760" height="112" alt="image" src="https://github.com/user-attachments/assets/5d01d707-922f-48c9-9cb5-414b5bd5c646" />
 
