@@ -62,7 +62,3 @@ Fitur yang diterapkan:
 * Menampilkan warning pada detail transaksi jika sudah melewati tanggal kembali
 <img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/d5030b29-dedf-49d9-8b32-db20a31baea5" />
 
-
-<img width="1011" height="791" alt="Notifikasi Buku Terlambat" src="LINK_GAMBAR_KAMU" />
-
----
