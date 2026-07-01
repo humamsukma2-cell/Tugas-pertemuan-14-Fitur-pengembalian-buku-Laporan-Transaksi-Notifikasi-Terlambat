@@ -17,9 +17,14 @@ Fitur yang diterapkan:
 
 * Menghitung denda keterlambatan sebesar Rp 5.000 per hari
 * Menampilkan total denda pada halaman detail transaksi
-* Menambahkan stok buku sebanyak 1 saat buku dikembalikan
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/0d4aedcc-e284-40b4-9ba8-d5a30b44b4b2" />
 
-<img width="1011" height="791" alt="Fitur Pengembalian Buku" src="LINK_GAMBAR_KAMU" />
+* Menambahkan stok buku sebanyak 1 saat buku dikembalikan
+* Total Stok Sebelum Buku Dikembalikan
+<img width="756" height="113" alt="image" src="https://github.com/user-attachments/assets/4ba808cb-8812-4595-a000-e531ea248cf0" />
+* Total Stok Setelah Buku Dikembalikan
+<img width="760" height="112" alt="image" src="https://github.com/user-attachments/assets/5d01d707-922f-48c9-9cb5-414b5bd5c646" />
+
 
 ---
 
@@ -29,16 +34,12 @@ Implementasi halaman laporan transaksi dengan filter. Halaman ini digunakan untu
 
 Fitur yang diterapkan:
 
-* Route laporan transaksi: `/transaksi/laporan`
-* Filter berdasarkan range tanggal
-* Filter berdasarkan status transaksi
-* Filter berdasarkan anggota
-* Menampilkan tabel transaksi
-* Menampilkan total transaksi
-* Menampilkan total denda
 * Export laporan transaksi ke PDF
 
-<img width="1011" height="791" alt="Laporan Transaksi" src="LINK_GAMBAR_KAMU" />
+<img width="959" height="389" alt="image" src="https://github.com/user-attachments/assets/62314a1f-43ab-49dc-a9f5-ef65e30fdb4b" />
+
+<img width="593" height="251" alt="image" src="https://github.com/user-attachments/assets/9ad0a5ae-d809-428e-9a59-6bda7d617caa" />
+
 
 ---
 
@@ -51,33 +52,15 @@ Fitur yang diterapkan:
 * Dashboard widget **Buku Terlambat**
 * Menampilkan jumlah transaksi yang terlambat
 * Menampilkan list anggota yang terlambat mengembalikan buku
+<img width="614" height="176" alt="image" src="https://github.com/user-attachments/assets/f3580b7e-383e-45cd-b638-5961766afc65" />
+
 * Menambahkan badge **Terlambat** berwarna merah pada index transaksi
-* Menampilkan jumlah hari keterlambatan
+<img width="959" height="344" alt="image" src="https://github.com/user-attachments/assets/c8774459-b3f6-48cc-bf74-3af46845c53d" />
+
 * Menampilkan warning pada detail transaksi jika sudah melewati tanggal kembali
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/d5030b29-dedf-49d9-8b32-db20a31baea5" />
+
 
 <img width="1011" height="791" alt="Notifikasi Buku Terlambat" src="LINK_GAMBAR_KAMU" />
 
 ---
-
-## File yang Diubah / Ditambahkan
-
-* `routes/web.php`
-* `app/Http/Controllers/TransaksiController.php`
-* `app/Models/Transaksi.php`
-* `resources/views/dashboard.blade.php`
-* `resources/views/transaksi/index.blade.php`
-* `resources/views/transaksi/show.blade.php`
-* `resources/views/transaksi/laporan.blade.php`
-* `resources/views/transaksi/laporan_pdf.blade.php`
-
----
-
-## Package yang Digunakan
-
-* `barryvdh/laravel-dompdf`
-
----
-
-## Kesimpulan
-
-Pada penugasan Pertemuan 14, sistem perpustakaan berhasil ditambahkan fitur pengembalian buku, laporan transaksi, dan notifikasi keterlambatan. Fitur pengembalian buku dapat menghitung denda keterlambatan dan menambahkan stok buku secara otomatis. Fitur laporan transaksi dapat menampilkan data transaksi berdasarkan filter tertentu dan dapat diexport ke PDF. Selain itu, sistem juga dapat menampilkan notifikasi buku terlambat pada dashboard, index transaksi, dan detail transaksi.
